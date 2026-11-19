@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - GPS Map Camera: Geotag Photo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #111726;
+      --card-border: rgba(255, 255, 255, 0.08);
+      --primary: #00f2fe;
+      --primary-dark: #0284c7;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --success: #10b981;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.7;
+      padding: 0 16px 60px;
+    }
+    .header-banner {
+      max-width: 860px;
+      margin: 40px auto 30px;
+      padding: 36px 28px;
+      background: linear-gradient(135deg, rgba(0, 242, 254, 0.1) 0%, rgba(2, 132, 199, 0.04) 100%);
+      border: 1px solid rgba(0, 242, 254, 0.25);
+      border-radius: 24px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    }
+    .badge-dev {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #00f2fe;
+      background: rgba(0, 242, 254, 0.12);
+      border: 1px solid rgba(0, 242, 254, 0.3);
+      border-radius: 999px;
+      padding: 4px 14px;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+    .sub-meta {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      padding: 26px 28px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    }
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2 span.icon {
+      color: var(--primary);
+    }
+    p {
+      color: var(--text-muted);
+      font-size: 0.94rem;
+      margin-bottom: 12px;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 12px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    li {
+      position: relative;
+      padding-left: 24px;
+      color: var(--text-muted);
+      font-size: 0.93rem;
+    }
+    li::before {
+      content: '✔';
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--success);
+      font-weight: bold;
+    }
+    .highlight-box {
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 14px 0 6px;
+      color: #e2e8f0;
+      font-size: 0.92rem;
+    }
+    .highlight-box strong {
+      color: #34d399;
+    }
+    .table-container {
+      overflow-x: auto;
+      margin-top: 14px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      text-align: left;
+    }
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    th {
+      background: rgba(255, 255, 255, 0.04);
+      color: #ffffff;
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-muted);
+    }
+    code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.82rem;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #38bdf8;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header-banner">
+    <div class="badge-dev">Eduplus Creation • Official Legal Policy</div>
+    <h1>Privacy Policy</h1>
+    <div class="sub-meta">
+      <strong>GPS Map Camera: Geotag Photo</strong> (Package: <code>com.geotag.gpsmapcamera</code>)<br />
+      Effective Date: November 2026 • Compliant with Google Play Store 2026 Developer Policy
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Section 1: Overview -->
+    <section class="card">
+      <h2><span class="icon">🛡️</span> 1. Introduction &amp; Privacy Commitment</h2>
+      <p>
+        Welcome to <strong>GPS Map Camera: Geotag Photo</strong>, developed and operated by <strong>Eduplus Creation</strong> ("we", "our", or "us"). 
+        We build professional field inspection, engineering survey, and telemetry camera tools.
+      </p>
+      <div class="highlight-box">
+        <strong>🔒 100% On-Device Processing Guarantee:</strong> 
+        All photographs captured, GPS watermarks stamped, videos recorded, and audio memos created are stored strictly inside your mobile device’s local storage. We <strong>do NOT</strong> upload, collect, synchronize, sell, or rent your private photos or telemetry to any external cloud servers.
+      </div>
+    </section>
+
+    <!-- Section 2: Permissions -->
+    <section class="card">
+      <h2><span class="icon">📱</span> 2. Permissions &amp; Data Utilization</h2>
+      <p>To provide real-time geotagging and survey camera capabilities, the application requests the following Android runtime permissions:</p>
+      
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Permission</th>
+              <th>Technical Android Name</th>
+              <th>Exact Usage &amp; Safeguards</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Camera</strong></td>
+              <td><code>android.permission.CAMERA</code></td>
+              <td>Required to operate the live camera viewfinder, capture field photos, record video footage, and apply live GPS HUD overlays. Frames are processed in memory and never transmitted externally.</td>
+            </tr>
+            <tr>
+              <td><strong>Precise Location</strong></td>
+              <td><code>ACCESS_FINE_LOCATION</code><br /><code>ACCESS_COARSE_LOCATION</code></td>
+              <td>Used exclusively in the foreground while the camera is active to calculate latitude, longitude, altitude, and accuracy for stamping onto user photos. Location data is never logged or tracked in the background.</td>
+            </tr>
+            <tr>
+              <td><strong>Microphone / Audio</strong></td>
+              <td><code>android.permission.RECORD_AUDIO</code></td>
+              <td>Optional. Used only when recording survey videos with sound or when you choose to record a voice note attachment for an inspection photo.</td>
+            </tr>
+            <tr>
+              <td><strong>Storage &amp; Media</strong></td>
+              <td><code>READ_MEDIA_IMAGES</code><br /><code>READ_MEDIA_VIDEO</code></td>
+              <td>Required to save your finished stamped photos to the Android device photo gallery and export multi-page PDF survey inspection reports.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Section 3: Third Party Services -->
+    <section class="card">
+      <h2><span class="icon">🌐</span> 3. Third-Party Services &amp; Network APIs</h2>
+      <p>The app integrates only minimal, standard, privacy-compliant third-party SDKs:</p>
+      <ul>
+        <li>
+          <strong>OpenStreetMap Nominatim / Open-Meteo:</strong> Reverse-geocodes your active GPS coordinates to display friendly locality, city, and weather data on the stamp card. Queries are sent over encrypted HTTPS and do not identify personal user credentials.
+        </li>
+        <li>
+          <strong>Google AdMob (Google Play Services):</strong> May serve personalized or non-personalized advertisements to support free development. AdMob may collect anonymous advertising IDs, approximate location, and device telemetry according to Google's Advertising Privacy Policies: 
+          <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Privacy &amp; Terms</a>.
+        </li>
+        <li>
+          <strong>Google ML Kit (Vision OCR &amp; QR):</strong> Runs completely offline on your device to detect QR codes or text barcodes for instant coordinate verification. Zero image data is sent to cloud servers.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Section 4: Data Retention & User Rights -->
+    <section class="card">
+      <h2><span class="icon">🗑️</span> 4. Data Retention, Control &amp; Deletion</h2>
+      <p>
+        Because <strong>GPS Map Camera</strong> does not require user registration, account sign-in, or remote database synchronization:
+      </p>
+      <ul>
+        <li>You retain 100% complete ownership of all media files and surveyor notes created within the app.</li>
+        <li>Deleting a photograph from your device's gallery or within the in-app gallery permanently wipes that photograph and its embedded GPS watermark.</li>
+        <li>Uninstalling the application automatically deletes all locally cached app configurations and IndexedDB records.</li>
+      </ul>
+    </section>
+
+    <!-- Section 5: Children's Privacy -->
+    <section class="card">
+      <h2><span class="icon">👶</span> 5. Children's Privacy (COPPA Compliance)</h2>
+      <p>
+        Our services are professional field tools and are not targeted toward children under the age of 13. We do not knowingly collect any personally identifiable information from children under 13. If you believe a child has provided data, please contact us immediately for assistance.
+      </p>
+    </section>
+
+    <!-- Section 6: Policy Changes -->
+    <section class="card">
+      <h2><span class="icon">🔄</span> 6. Updates to This Privacy Policy</h2>
+      <p>
+        We may update our Privacy Policy periodically to reflect technological updates, operating system requirements, or legal compliance. Any changes will be published directly to this page with an updated effective date.
+      </p>
+    </section>
+
+    <!-- Section 7: Contact -->
+    <section class="card">
+      <h2><span class="icon">✉️</span> 7. Contact Information</h2>
+      <p>If you have any questions, feedback, or compliance inquiries regarding this Privacy Policy, please contact our developer team at:</p>
+      <div class="highlight-box">
+        <strong>Eduplus Creation Developer Support</strong><br />
+        Developer: Eduplus Creation<br />
+        Email: <a href="mailto:edupluscreation@gmail.com">edupluscreation@gmail.com</a><br />
+        Website: <a href="https://edupluscreation.github.io" target="_blank">edupluscreation.github.io</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    &copy; 2026 Eduplus Creation. All rights reserved. • GPS Map Camera: Geotag Photo
+  </footer>
+
+</body>
+</html>
